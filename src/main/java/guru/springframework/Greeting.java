@@ -1,6 +1,6 @@
 package guru.springframework;
 
-public class Greating {
+public class Greeting {
     private static final String HELLO = "Hello";
     private static final String WORLD = "World";
     public String helloWorld() { return HELLO.concat(" ").concat(WORLD); }
