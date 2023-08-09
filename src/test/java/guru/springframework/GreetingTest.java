@@ -6,16 +6,19 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GreetingTest {
+    private Greeting greeting;
     @BeforeEach
     void setUp() {
-
+        greeting = new Greeting();
     }
 
     @Test
     void helloWorld() {
+        System.out.println(greeting.helloWorld());
     }
 
     @Test
     void helloSomething() {
+        System.out.println(greeting.helloSomething("Ian"));
     }
 }
